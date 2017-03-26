@@ -11,13 +11,14 @@ body {
 .header {
   display: flex;
   border-bottom: 1px solid seashell;
-  display: fixed;
+  position: fixed;
   height: 69px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   font-size: 22px;
   z-index: 1;
+  background-color: black;
 }
 
 a {
@@ -44,6 +45,8 @@ a {
   align-items: center;
   justify-content: center;
   padding-top: 70px;
+  position: relative;
+  top: 69px;
 }
 
 .banner {
